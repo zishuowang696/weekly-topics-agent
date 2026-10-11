@@ -26,6 +26,8 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           SITE_FEED: ${{ vars.SITE_FEED }}
           SITE_BRIEF: ${{ vars.SITE_BRIEF }}
+          DEVTO_USERNAME: ${{ vars.DEVTO_USERNAME }}
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }} # 可选：填了才有阅读量
         run: python agent/topics.py
 
       - name: Commit
