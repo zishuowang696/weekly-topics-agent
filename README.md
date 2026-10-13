@@ -52,3 +52,4 @@ MIT
 ---
 
 出处：<https://embedai.com.cn/posts/give-blog-an-agent>
+站点：<https://embedai.com.cn>
